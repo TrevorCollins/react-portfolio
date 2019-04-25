@@ -21,11 +21,11 @@ function Footer() {
     return(
         <div id="footer" style={footerStyle}>
             <a href="https://github.com/TrevorCollins">
-                <img style={iconStyle} src={githubIcon} alt="Git hub link" />
+                <img style={iconStyle} src={githubIcon} alt="Git hub link" target="_blank" />
             </a>
 
             <a href="https://github.com/TrevorCollins">
-                <img style={iconStyle} src={linkedinIcon} alt="Linked In link" />
+                <img style={iconStyle} src={linkedinIcon} alt="Linked In link" target="_blank" />
             </a>
 
         </div>
